@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="utf-8">
+    <title>The Palindrome Results!</title>
+    <link rel = "stylesheet" href="../public/site.css">
+</head>
+<body>
+    <h1 class = "result_title">The Palindrome Results!</h1>
+    <main>
+        <p class = {{class}}> {{texttotest}} </p>
+        {{#if result}}
+            <p class = {{class}}>is a palindrome.</p>
+        {{else}}
+            <p class = {{class}}>is not a palindrome.</p>
+        {{/if}}
+    </main>
+    <footer><a href = "/" >Try another palindrome</a> </footer>
+</body>  
+</html>

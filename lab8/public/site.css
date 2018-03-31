@@ -1,0 +1,59 @@
+html, body {
+  font-size: 10pt;
+}
+
+body {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+	background: gray;
+}
+
+main {
+  max-width: 75%;
+  margin: auto;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+	color: red;
+	margin: 50px 100px;
+}
+
+form {
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+label {
+  font-weight: bold;
+}
+
+p {
+  color: antiquewhite;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+a {
+    text-align: center;
+    color: hotpink;
+    text-decoration: none;
+}
+
+
+footer{
+    text-align: center;
+}
+
+.success {
+  color: #28a745;
+}
+
+.failure {
+  color: #dc3545;
+}
+
+.result_title{
+    color: aqua;
+}

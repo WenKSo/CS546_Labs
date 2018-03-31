@@ -1,0 +1,15 @@
+{
+  "name": "cs-546-lab-3",
+  "version": "0.0.1",
+  "description": "CS546 Web Programming Lab3",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wenkang Su 10409507",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1"
+  }
+}
