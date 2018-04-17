@@ -1,0 +1,21 @@
+{
+  "name": "cs-546-lab10",
+  "version": "1.0.0",
+  "description": "A simple login system",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Wenkang Su",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "guid": "0.0.12",
+    "handlebars": "^4.0.6"
+  }
+}
